@@ -45,12 +45,38 @@ print(a ** b)             # Exponentiation: a^b (large number)
 print(a == b)             # Equality check: False
 print(a != b)             # Not equal: True
 print(a >= b)             # Greater than or equal: True
+print(a // b)             # Floor division: It returns floor value for both integer and floating point arguments. 
+#                         >>> 5 // 2 result 2, >>> -5 // 2 result -3, >>> 2.0//2 result 1.0, >>> -5.0 // 2 result -3.0
 
 # --- ASSIGNMENT OPERATORS ---
 num = 10
 num += 10                # Equivalent to: num = num + 10
 num2 = num + 10
 print(num2)              # Output: 30
+# in the same way, -=, *=, /=, %=, **=, //=
+
+# --- Identity Operators --- 
+"""
+Operator            Description                                                     Example 
+is                  Returns True if both variables are the same object              x is y 
+is not              Returns True if both variables are not the same object          x is not y
+"""
+x = 10
+y = 10
+z = 20
+print (x is y)
+print (y is not z)
+
+# --- Python Membership Operators ---
+"""
+Operator        Description                                                                         Example 
+in              Returns True if a sequence with the specified value is present in the object        x in y 
+not in          Returns True if a sequence with the specified value is not present in the object    x not in y
+"""
+x1 = ["apple", "mango"]
+print ("banana" in x1)
+x2 = "Hello world"
+print ('H' not in x2)
 
 # --- TYPE CONVERSION ---
 # Useful when taking inputs or changing data types

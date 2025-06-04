@@ -16,7 +16,12 @@ int main() {
     else 
         printf("They are NOT equal.\n");
 
-// 
+    // float epsilon = 0.0001f;  // small tolerance to account for floating-point precision
+    // if (fabs(poly - poly_horner) < epsilon)
+    //     printf("They are approximately equal.\n");
+    // else
+    //     printf("They are NOT equal.\n");
+
 
     return 0;
 }
