@@ -69,6 +69,40 @@ print("length of my name is:", len(str5))
 strS = "Shahi lives Shahi Eidgah"
 print(strS.count("S"))  # Case-sensitive
 
+
+# ----------------------
+# INDENTATION
+# ----------------------
+"""
+-refers to the spaces at the beginning of a code line. 
+-indicates a block of code. 
+-A code block (body of a condition, loop, function etc.) starts with indentation and ends with the first unindented line. 
+number of spaces is up to programmer, but it has to be at least one.
+"""
+a = 15
+if a >10:
+    print ("a is greater than 10")  #indentation before print function
+
+# ----------------------
+# PRINTF FUNCTION
+# ----------------------
+"""Syntax: print(object(s), sep=separator, end=end, file=file, flush=flush)"""
+
+# Keyword Argument sep 
+"""Adding the keyword argument sep=<str> causes objects to be separated by the string <str> instead of the default single space. 
+To squish objects together without any space between them specify sep=" """
+print('foo', 42, 'bar') # foo 42 bar 
+print('foo', 42, 'bar', sep='/') # foo/42/bar 
+print('foo', 42, 'bar', sep='...') # foo...42...bar 
+
+# Keyword Argument end 
+"""The keyword argument end=<str> causes output to be terminated by <str> instead of the default newline."""
+print('foo', end='') 
+print(42, end=',') 
+print('bar') 
+#Output: foo42,bar
+
+
 # ----------------------
 # CONDITIONAL STATEMENTS
 # ----------------------
