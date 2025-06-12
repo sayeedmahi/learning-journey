@@ -90,6 +90,17 @@ while ii <= 10:
     print(ii)
     ii += 1
 
+# -------------------- Nested While --------------------
+outer =1
+while outer <=2:
+    inner =1
+    while inner <=3:
+        print (outer, ',', inner)
+        inner +=1
+    print ("Inner loop terminates")
+    outer +=1
+print ("Outer loop terminates")
+
 # -------------------- For Loop --------------------
 # Used for sequential iteration over sequences
 
