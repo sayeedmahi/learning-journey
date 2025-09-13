@@ -16,9 +16,3 @@ int main() {
     printf("%d\n", count);
 }
 
-
-// #include <stdio.h>
-// #include <string.h>
-// int main() {
-    
-// }
