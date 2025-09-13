@@ -10,8 +10,8 @@
 //     printf("%d ", a[i]);}
 //     printf("\n");
 // }
-
 // Reverses a series of numbers using a variable-length array - C99 only // 
+
 #include <stdio.h>
 int main() {
 int i, n;

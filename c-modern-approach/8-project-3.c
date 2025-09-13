@@ -20,5 +20,4 @@ if (repeated_digit==1) {
     }
     printf("\n");
 }
-    else
-    printf("No repeated digits");}
+}

@@ -15,6 +15,7 @@ int main() {
         n=n/10;
     }
 if (repeated_digit==1) {
+     printf("Repeated digit(s): ");
     for (int i=0; i<10; i++) {
         if (b[i]!=0) printf("%d ", i);
     }
