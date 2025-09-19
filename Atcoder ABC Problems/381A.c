@@ -10,7 +10,6 @@ int main() {
         printf("No\n");
         return 0;
     }
-
     int mid = n / 2;
     for (int i = 0; i < mid; i++) {
         if (s[i] != '1') {
