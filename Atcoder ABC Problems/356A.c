@@ -1,12 +1,16 @@
-#include <stdio.h>
 
+#include <stdio.h>
 int main() {
-    int a, b;
-    scanf ("%d %d", &a, &b);
-    if (a==b) printf("-1");
-    else {
-        if (a!=1 && b!=1) printf("1");
-        else if (a!=2 && b!=2) printf("2");
-        else if (a!=3 && b!=3) printf("3");
+    int n, l, r;
+    scanf("%d %d %d", &n, &l, &r);
+    
+    for (int i=1; i<l; i++) {
+        printf("%d ", i);
+    }
+    for (int i=r; i>=l; i--) {
+        printf("%d ", i);
+    }
+    for (int i=r+1; i<=n; i++) {
+        printf("%d ", i);
     }
 }

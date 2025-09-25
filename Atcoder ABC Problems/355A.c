@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <math.h>
-int main () {
-    int h;
-    scanf("%d", &h);
-    for (int i=0; i<=30; i++) {
-        if (pow(2, i)>(double)(h+1)) {
-            printf("%d", i);
-            break;
-        }
+
+int main() {
+    int a, b;
+    scanf ("%d %d", &a, &b);
+    if (a==b) printf("-1");
+    else {
+        if (a!=1 && b!=1) printf("1");
+        else if (a!=2 && b!=2) printf("2");
+        else if (a!=3 && b!=3) printf("3");
     }
-    return 0;
 }
+

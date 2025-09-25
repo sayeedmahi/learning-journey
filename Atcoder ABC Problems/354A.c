@@ -1,18 +1,14 @@
-#include <stdio.h>
 
-int main() {
-    int n;
-    scanf("%d", &n);
-    int h[n];
-    for (int i=0; i<n; i++) {
-        scanf("%d", &h[i]);
-    }
-    int exists=-1;
-    for (int i=0; i<n; i++) {
-        if (h[i]>h[0]) {
-            exists=i+1;
+#include <stdio.h>
+#include <math.h>
+int main () {
+    int h;
+    scanf("%d", &h);
+    for (int i=0; i<=30; i++) {
+        if (pow(2, i)>(double)(h+1)) {
+            printf("%d", i);
             break;
         }
     }
-    printf("%d", exists);
+    return 0;
 }
