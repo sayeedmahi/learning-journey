@@ -14,3 +14,6 @@ int main() {
     else printf("YES\n");
     }
 }
+    return 0;
+}
+}
