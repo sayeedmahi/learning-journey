@@ -9,7 +9,7 @@ int main () {
     else if (m<k && m<n) {
         long long int count1= m;
         long long int count2= (n-m)/2;
-        if (count2<k) ans = count1+count2;
+        if (count2<(k-m)) ans = count1+count2;
         else ans = k;
     }
     printf("%lld", ans);
