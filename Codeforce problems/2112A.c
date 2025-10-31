@@ -23,5 +23,6 @@ int main () {
     if ((len%2!=0) && (numarr[(len-1)/2]==a)) printf("NO\n");
     else if ((len%2==0) && (numarr[len/2]==a || numarr[(len/2)-1]==a)) printf("NO\n"); 
     else printf("YES\n");
+    return 0;
 }
 }
